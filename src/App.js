@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="container">
-     <h1>Increment/Decrement Counter</h1>
+     <h1>Increment/Decrement Counter Using Redux</h1>
      <h4>Using React and Redux</h4>
      <div className='quantity'>
       <a className='quintity_minus' title='decrement'onClick={ () => dispatch(decNumber())}><span>-</span></a>
